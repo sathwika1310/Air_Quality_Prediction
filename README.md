@@ -1,11 +1,12 @@
 
-# 🌍 Air Quality Prediction – Environmental Monitoring Project
+Air Quality Prediction
 
 📌 Project Overview
+
 It focuses on analyzing and preprocessing air quality data from Indian cities (2015–2020) and then building machine learning models to predict Air Quality Index (AQI) levels and AQI categories.
 The project includes data cleaning, handling missing values, feature engineering, exploratory data analysis (EDA), and preprocessing (encoding & scaling). In later stages, regression and classification models will be implemented to forecast air quality and support environmental monitoring efforts.
 
- 🎯 Objectives
+🎯 Objectives
 
 * Clean and preprocess real-world air quality data
 * Handle missing values and inconsistent entries
