@@ -22,10 +22,10 @@ Dataset
 * File Used: `city_day.csv`
   
 Key Features (independent variables):
-     * PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene
+     PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene
      
 Target Variable (dependent variable):
-     * AQI_Bucket (Categorical: Good, Satisfactory, Moderate, Poor, Very Poor, Severe)
+     AQI_Bucket (Categorical: Good, Satisfactory, Moderate, Poor, Very Poor, Severe)
 
 
 Tech Stack
