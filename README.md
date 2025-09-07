@@ -1,42 +1,36 @@
 
-Air Quality Prediction
-
 Project Overview
 
-It focuses on analyzing and preprocessing air quality data from Indian cities (2015–2020) and then building machine learning models to predict Air Quality Index (AQI) levels and AQI categories.
-The project includes data cleaning, handling missing values, feature engineering, exploratory data analysis (EDA), and preprocessing (encoding & scaling). In later stages, regression and classification models will be implemented to forecast air quality and support environmental monitoring efforts.
+The goal is to predict Air Quality Index (AQI) categories for Indian cities based on pollutant levels using Machine Learning models.
+By analyzing the dataset, preprocessing it, and applying ML techniques, the project provides insights into pollution levels and predicts AQI categories (Good, Satisfactory, Moderate, Poor, Very Poor, Severe).
 
-Objectives
+Methodology
 
-* Clean and preprocess real-world air quality data
-* Handle missing values and inconsistent entries
-* Convert date columns and extract useful time-based features
-* Perform exploratory data analysis (EDA) to identify trends and patterns
-* Apply encoding and scaling to prepare the dataset for machine learning models
+* Data Collection & Problem Definition – Identified AQI prediction as the core problem.
+
+* Data Preprocessing – Cleaning dataset, handling missing values, encoding categorical features.
+
+* Exploratory Data Analysis (EDA) – Analyzing pollutant patterns, distributions, and correlations.
+
+* Model Selection – Chose Random Forest Classifier as the predictive model.
+
+* Model Training & Evaluation – Training model on processed data.
 
 Dataset
 
 * Source: [Air Quality Data in India (Kaggle)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
 * File Used: `city_day.csv`
-* Features: Pollutants (PM2.5, PM10, NO2, CO, SO2, O3, etc.), AQI, City, Date
+Key Features (independent variables):
+     * PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene
+Target Variable (dependent variable):
+     * AQI_Bucket (Categorical: Good, Satisfactory, Moderate, Poor, Very Poor, Severe)
 
-Preprocessing Steps 
 
-1. Data Loading
-2. Handling Missing Values
-3. Converting Date column to datetime format
-4. Extracting new features (Year, Month, Day)
-5. Exploratory Data Analysis (EDA) – AQI trends, city comparison, correlations
-6. Final preprocessing:
+Tech Stack
 
-   * Encoding `AQI_Bucket` (categorical → numeric)
-   * Scaling pollutant features for ML readiness
-
-Insights from EDA
-
-* AQI shows seasonal patterns, with higher values in winter.
-* Some cities (like Delhi, Lucknow, Kanpur) consistently record poor air quality.
-* Strong correlation observed between **PM2.5, PM10, NO2** and AQI.
+* Python
+* Google Colab
+* Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
 
 
