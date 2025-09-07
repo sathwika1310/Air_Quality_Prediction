@@ -6,20 +6,21 @@ By analyzing the dataset, preprocessing it, and applying ML techniques, the proj
 
 Methodology
 
-* Data Collection & Problem Definition – Identified AQI prediction as the core problem.
+1. Data Collection & Problem Definition – Identified AQI prediction as the core problem.
 
-* Data Preprocessing – Cleaning dataset, handling missing values, encoding categorical features.
+2. Data Preprocessing – Cleaning dataset, handling missing values, encoding categorical features.
 
-* Exploratory Data Analysis (EDA) – Analyzing pollutant patterns, distributions, and correlations.
+3. Exploratory Data Analysis (EDA) – Analyzing pollutant patterns, distributions, and correlations.
 
-* Model Selection – Chose Random Forest Classifier as the predictive model.
+4. Model Selection – Chose Random Forest Classifier as the predictive model.
 
-* Model Training & Evaluation – Training model on processed data.
+5. Model Training & Evaluation – Training model on processed data.
 
 Dataset
 
 * Source: [Air Quality Data in India (Kaggle)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
 * File Used: `city_day.csv`
+  
 Key Features (independent variables):
      * PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene
 Target Variable (dependent variable):
